@@ -92,3 +92,47 @@ body {
   margin: 40px auto 60px;
   max-width: 570px;
 }
+
+/* social cards */
+.main__people-cards {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  position: relative;
+  width: 271px;
+  height: auto;
+}
+
+.overlay-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 270px;
+  background-color: #18B5DC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* opacity: 0; */
+  transition: opacity 0.2s ease-in-out;
+}
+
+.overlay-img:hover {
+  opacity: 1;
+}
+
+.overlay__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 4px;
+}
+
